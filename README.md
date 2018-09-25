@@ -3,7 +3,7 @@ A universal RRT algorithm implementation under ROS Navigation GlobalPlanner tool
 
 
 
-###一些说明
+### 一些说明
 
 我实现的rrt算法使用了yaml文件进行配置选择不同的算法，`use_grid_path`参数为0或者1时用的是gridpath和gradientpath，就是旧的算法，当变成2时就会使用我的rrt算法，之前的a*之类的都不会用到了。
 
