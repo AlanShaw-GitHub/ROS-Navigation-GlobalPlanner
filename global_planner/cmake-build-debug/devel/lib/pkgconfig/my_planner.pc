@@ -1,0 +1,8 @@
+prefix=/home/alan/Desktop/workspace/src/global_planner/cmake-build-debug/devel
+
+Name: my_planner
+Description: Description of my_planner
+Version: 1.14.3
+Cflags: -I/home/alan/Desktop/workspace/src/global_planner/cmake-build-debug/devel/include -I/home/alan/Desktop/workspace/src/global_planner/include
+Libs: -L/home/alan/Desktop/workspace/src/global_planner/cmake-build-debug/devel/lib -lmy_planner
+Requires: costmap_2d dynamic_reconfigure geometry_msgs nav_core navfn nav_msgs pluginlib roscpp tf

@@ -1,0 +1,4 @@
+GlobalPlanner:
+  use_dijkstra: False
+  use_grid_path: 2
+  use_auto_path: False
